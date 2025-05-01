@@ -1,0 +1,14 @@
+cc practical 2 :- goohl 
+search console cloud google
+sign up
+at top create a new project and enable it
+at top search admin API =>app engine Admin API  enable 
+
+active cloud shell
+
+git cline https://github.com/MorePiyush55/gcc.git
+cd gcc
+ls
+python test.py
+
+
