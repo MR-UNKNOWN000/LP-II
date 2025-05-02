@@ -6,7 +6,7 @@ at top search admin API =>app engine Admin API  enable
 
 active cloud shell
 
-git cline https://github.com/MorePiyush55/gcc.git
+git clone https://github.com/MorePiyush55/gcc.git
 cd gcc
 ls
 python test.py
