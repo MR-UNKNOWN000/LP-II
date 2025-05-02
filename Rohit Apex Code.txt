@@ -1,0 +1,24 @@
+public class SimpleLinearSort {
+    public static void run() {
+        List<Integer> nums = new List<Integer>{3, 1, 4, 3, 2, 0, 9, 5};
+
+        // Initialize bucket (0 to 9)
+        Integer[] count = new Integer[10];
+        for (Integer i = 0; i < 10; i++) count[i] = 0;
+
+        // Count frequencies
+        for (Integer num : nums) {
+            count[num]++;
+        }
+
+        // Build sorted list
+        List<Integer> sorted = new List<Integer>();
+        for (Integer i = 0; i < 10; i++) {
+            for (Integer j = 0; j < count[i]; j++) {
+                sorted.add(i);
+            }
+        }
+
+        System.debug('Sorted List: ' + sorted);
+    }
+}
