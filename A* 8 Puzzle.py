@@ -137,5 +137,3 @@ Solved in X moves
 **A:** Yes. If you add proper state tracking (visited set) and priority queue (min-heap), and allow backtracking, it becomes A\* search.
 
 ---
-
-Would you like a visual diagram or flowchart of this algorithm to include in your notes or presentation?
